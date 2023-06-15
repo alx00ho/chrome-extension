@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 10px;
   font: Arial;
+  min-width: 400px;
 }
 
 input {
@@ -23,4 +24,24 @@ input {
   color: white;
   padding: 10px 20px;
   font-weight: bold;
+}
+
+.btn-inverted {
+  border: 1px solid #5f9341;
+  color: #5f9341;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #5f9341;
 }
